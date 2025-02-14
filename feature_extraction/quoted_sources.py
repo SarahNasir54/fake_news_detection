@@ -8,10 +8,10 @@ class QuotedSourcesFeature:
     
     def __init__(self, path_to_parsers):
         
-        self.dependency_parser = StanfordDependencyParser('%s/stanford-corenlp-full-2018-02-27/stanford-corenlp-3.9.1.jar' % path_to_parsers,
-                                                          '%s/stanford-corenlp-full-2018-02-27/stanford-corenlp-3.9.1-models.jar' % path_to_parsers)
-        self.ner_tagger = StanfordNERTagger('%s/stanford-ner-2018-02-27/classifiers/english.all.3class.distsim.crf.ser.gz' % path_to_parsers,
-                       '%s/stanford-ner-2018-02-27/stanford-ner.jar' % path_to_parsers,
+        self.dependency_parser = StanfordDependencyParser('%s/stanford-corenlp-full-2018-02-27/stanford-corenlp-full-2018-02-27/stanford-corenlp-3.9.1.jar' % path_to_parsers,
+                                                          '%s/stanford-corenlp-full-2018-02-27/stanford-corenlp-full-2018-02-27/stanford-corenlp-3.9.1-models.jar' % path_to_parsers)
+        self.ner_tagger = StanfordNERTagger('%s/stanford-ner-2018-02-27/stanford-ner-2018-02-27/classifiers/english.all.3class.distsim.crf.ser.gz' % path_to_parsers,
+                       '%s/stanford-ner-2018-02-27/stanford-ner-2018-02-27/stanford-ner.jar' % path_to_parsers,
                        encoding='utf-8')
 
         ''' set label values '''

@@ -1,4 +1,4 @@
-from sklearn.linear_model.base import LinearRegression
+from sklearn.linear_model import LinearRegression
 from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.pipeline import make_pipeline

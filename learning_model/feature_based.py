@@ -15,8 +15,8 @@ from sklearn import preprocessing
 
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
-from sklearn.svm.classes import SVC
-from sklearn.tree.tree import DecisionTreeClassifier
+from sklearn.svm import SVC
+from sklearn.tree import DecisionTreeClassifier
 
 from sklearn.ensemble import ExtraTreesClassifier
 

@@ -3,7 +3,9 @@ from nltk.stem.snowball import SnowballStemmer
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import stopwords
 from nltk import pos_tag, word_tokenize
-
+import nltk
+#nltk.download('averaged_perceptron_tagger_eng')
+#nltk.download('all')
 
 class LexiconFeatures:
     

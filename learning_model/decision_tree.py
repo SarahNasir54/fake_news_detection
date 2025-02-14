@@ -1,7 +1,8 @@
 import numpy as np
 
 from sklearn.model_selection import GridSearchCV
-from sklearn.tree.tree import DecisionTreeClassifier
+from sklearn.tree import DecisionTreeClassifier
+
 
 
 class DecisionTree:

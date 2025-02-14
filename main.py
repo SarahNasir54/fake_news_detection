@@ -43,10 +43,10 @@ def test_features_model():
 
 def test_text_model():
     text_based = TextBased()
-    text_based.run("input/feature_extraction.csv", "glove.6B.300d.txt")
+    text_based.run("input/feature_extraction.csv", "glove.6B/glove.6B.300d.txt")
     
 if __name__ == '__main__':
     print("uncomment your experiment of choice in the main function of main.py")
-    # test_feature_extraction()
+    #test_feature_extraction()
     test_features_model()    
-    # test_text_model()
+    #test_text_model()
